@@ -10,17 +10,19 @@ function setup() {
 function draw() {
   background(255, 255, 255);
   stroke(0, 0, 0);
-  strokeWeight(1);
 
 
   let x = 80;
   let colorIndex = 0;
  
   //for the horizontal lines
+  
   for (let i = 0; i < numLines; i++) {
     let yStart = random(50, 150);
-    let yEnd = random(width - 150, width - 50);
+    let yEnd = random(550, 450);
     line(x, yStart, x, yEnd);
+    strokeWeight(random(1, 3));
+    
 
     //for the random smaller lines
     let numDiagonals = int(random(1, 3));
@@ -35,6 +37,7 @@ function draw() {
       translate(x, y);
       stroke(colors[colorIndex % colors.length]); //this line is taken from ChatGPT, https://chatgpt.com/c/68c68590-6414-8324-9c50-4c1f8491939b
       rotate(angle);
+      //strokeWeight(1);
       line(0, 0, len, 0);
       pop();
 

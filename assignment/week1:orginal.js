@@ -18,7 +18,7 @@ function draw() {
   //for the horizontal lines
   for (let i = 0; i < numLines; i++) {
     let xStart = random(50, 150);
-    let xEnd = random(width - 150, width - 50);
+    let xEnd = random(550, 450);
     line(xStart, y, xEnd, y);
 
     //for the random smaller lines
