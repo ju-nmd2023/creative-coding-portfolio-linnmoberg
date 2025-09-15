@@ -7,7 +7,7 @@
 
   {
     "file": "assignment/week1:water.js",
-    "name": "Name of your experiment",
+    "name": "Waves",
     "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
   },
 
@@ -20,6 +20,12 @@
   {
     "file": "assignment/week1:behindbars.js",
     "name": "Sprinkles behind bars",
+    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+  },
+
+  {
+    "file": "assignment/week1:ocean.js",
+    "name": "Ocean eyes",
     "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
   }
 ]
