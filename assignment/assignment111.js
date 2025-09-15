@@ -1,19 +1,20 @@
-
 const gap = 20; 
-const numLines = 20; //asked chatgpt to help me make lines in an easier way than the one in the example
+const numLines = 20;
+let colors = []; 
 
 function setup() {
   createCanvas(800, 600);
+  generateColors();
 }
 
 function draw() {
   background(255, 255, 255);
- // noFill();
   stroke(0, 0, 0);
   strokeWeight(1);
 
 
   let y = 80;
+  let colorIndex = 0;
  
   //for the horizontal lines
   for (let i = 0; i < numLines; i++) {
@@ -32,9 +33,12 @@ function draw() {
 
       push();
       translate(x, y);
+      stroke(colors[colorIndex % colors.length]); //this line is taken from ChatGPT, https://chatgpt.com/c/68c68590-6414-8324-9c50-4c1f8491939b
       rotate(angle);
       line(0, 0, len, 0);
       pop();
+
+      colorIndex++; //This line is taken from ChatGPT, https://chatgpt.com/c/68c68590-6414-8324-9c50-4c1f8491939b
       
       }
     
@@ -46,4 +50,14 @@ function draw() {
     noLoop();
   }
 
- 
+  function mousePressed() {
+    generateColors();
+    redraw();  //This line chatGPT helped me with
+  }
+
+  function generateColors () {
+    colors = [];
+    for (let i = 0; i < 200; i++) {
+        colors.push(color(random(255), random(255), random(255)));
+    }
+  }

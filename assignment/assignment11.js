@@ -1,65 +1,42 @@
+
 const gap = 20; 
-const numLines = 20;
-let colors = []; 
+const numLines = 20; //asked chatgpt to help me make lines in an easier way than the one in the example
+
+let counter = 0;
 
 function setup() {
   createCanvas(800, 600);
-  generateColors();
+  frameRate(30);
 }
 
 function draw() {
   background(255, 255, 255);
-  stroke(0, 0, 0);
+  noFill();
+  stroke(0, 100, 150);
   strokeWeight(1);
 
 
   let y = 80;
-  let colorIndex = 0;
  
   //for the horizontal lines
   for (let i = 0; i < numLines; i++) {
-    let xStart = random(50, 150);
-    let xEnd = random(width - 150, width - 50);
-    line(xStart, y, xEnd, y);
+    beginShape();
+    for (let x = 0; x <= width; x += 10) {
+      let yOffset = noise(x * 0.01, i * 0.2, counter) * 40 - 20;
 
-    //for the random smaller lines
-    let numDiagonals = int(random(1, 3));
-
-    for (let k = 0; k < numDiagonals; k++) {
-      let x = random(90, width - 90);
-      let len = random(30, 120);
-      let angle = random(-PI/4, PI/4);
-      //line(x, y, x + len * cos(angle), y + len * sin(angle));
-
-      push();
-      translate(x, y);
-      stroke(colors[colorIndex % colors.length]); //this line is taken from ChatGPT, https://chatgpt.com/c/68c68590-6414-8324-9c50-4c1f8491939b
-      rotate(angle);
-      line(0, 0, len, 0);
-      pop();
-
-      colorIndex++; //This line is taken from ChatGPT, https://chatgpt.com/c/68c68590-6414-8324-9c50-4c1f8491939b
+      vertex(x, y + yOffset);
+    }
+endShape();
+y += gap;
       
       }
     
-     y += gap;
+     counter += 0.01;
     
     }
     
 
-    noLoop();
-  }
-
-  function mousePressed() {
-    generateColors();
-    redraw();  //This line chatGPT helped me with
-  }
-
-  function generateColors () {
-    colors = [];
-    for (let i = 0; i < 200; i++) {
-        colors.push(color(random(255), random(255), random(255)));
-    }
-  }
+    //noLoop();
+  
 
  
