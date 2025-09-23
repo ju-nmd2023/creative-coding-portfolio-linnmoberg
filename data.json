@@ -39,7 +39,12 @@
     "file": "assignment/week1:greyscale.js",
     "name": "Fifty shades of grey",
     "description": "I wanted to do a messy design that way grey and glommy because design is not always happy and colorfull. From the original I changed the sizes of the rectangles and the colors."
-  }
+  },
+{
+  "file": "assignment/week2-3:change.js",
+  "name": "Sarah Ridgley",
+  "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+}
 ]
 
 
