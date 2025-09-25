@@ -26,7 +26,7 @@ function draw() {
         x = constrain(x, 0, cols -1);
         y = constrain(y, 0, rows -1);
         
-        let desired = field[x][y];
+        let desired = field[x][y]; // got help with chatGPT here because my code did not work but with this it worked, https://chatgpt.com/c/68d3a4f7-9ce0-832a-923f-c750614f29c5
 
         agent.follow(desired);
         agent.update();
@@ -35,6 +35,7 @@ function draw() {
     }
 }
 
+//got help with this code in one of the examples with flow fields, https://codepen.io/pixelkind/pen/OJrRzOm
 class Agent {
     constructor(x, y, maxSpeed, maxForce) {
         this.position = createVector(x, y);
@@ -79,6 +80,7 @@ class Agent {
 
 // -- Flow Field --
 
+//got help with this code in one of the examples with flow fields, https://codepen.io/pixelkind/pen/OJrRzOm
 function generateField() {
     let field = [];
     noiseSeed(random(1000));
