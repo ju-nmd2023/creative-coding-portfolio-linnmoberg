@@ -44,6 +44,18 @@
   "file": "assignment/week2-3:change.js",
   "name": "Sarah Ridgley",
   "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+},
+
+{
+  "file": "assignment/trying.js",
+  "name": "Trying",
+  "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+},
+
+{
+  "file": "assignment/week4:sound.js",
+  "name": "Sound",
+  "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
 }
 ]
 

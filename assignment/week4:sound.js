@@ -1,5 +1,6 @@
 let agents = [];
 let field;
+let myButton = createButton('Click me!');
 
 const gridSize = 25;
 const divider = 50; // got help here by chatGPT, https://chatgpt.com/c/68d4ff2d-fa74-832c-9016-c9ab37d64375
@@ -12,9 +13,12 @@ function setup() {
     rows = ceil(height / gridSize);
     field = generateField();
 
+    myButton.position(300, 400);
+    //myButton.mousePressed(buttonClicked);
+
 }
 
-function draw() {
+function draw() { 
     fill(0, 15);
     rect(0, 0, width, height);
 
@@ -39,6 +43,10 @@ function draw() {
         if (agent.isDead()) {
             agents.splice(i, 1);
         }
+    }
+
+    function buttonClicked() {
+
     }
 }
 
