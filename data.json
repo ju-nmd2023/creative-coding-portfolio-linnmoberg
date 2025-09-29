@@ -1,59 +1,53 @@
 [
   {
-    "file": "assignment/week1:orginal.js",
+    "file": "experiments/week1:orginal.js",
     "name": "Vera Molnár",
     "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
   },
 
   {
-    "file": "assignment/week1:water.js",
+    "file": "experiments/week1:water.js",
     "name": "Waves",
     "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
   },
 
   {
-    "file": "assignment/week1:sprinklesonpaper.js",
+    "file": "experiments/week1:sprinklesonpaper.js",
     "name": "Sprinkles on paper",
     "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
   },
 
   {
-    "file": "assignment/week1:behindbars.js",
+    "file": "experiments/week1:behindbars.js",
     "name": "Sprinkles behind bars",
     "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
   },
 
   {
-    "file": "assignment/week1:ocean.js",
+    "file": "experiments/week1:ocean.js",
     "name": "Ocean eyes",
     "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
   },
 
   {
-    "file": "assignment/week1:sarahridgley.js",
+    "file": "experiments/week1:sarahridgley.js",
     "name": "Sarah Ridgley",
     "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
   },
 
   {
-    "file": "assignment/week1:greyscale.js",
+    "file": "experiments/week1:greyscale.js",
     "name": "Fifty shades of grey",
     "description": "I wanted to do a messy design that way grey and glommy because design is not always happy and colorfull. From the original I changed the sizes of the rectangles and the colors."
   },
 {
-  "file": "assignment/week2-3:change.js",
+  "file": "experiments/week2-3:change.js",
   "name": "Sarah Ridgley",
   "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
 },
 
 {
-  "file": "assignment/trying.js",
-  "name": "Trying",
-  "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
-},
-
-{
-  "file": "assignment/week4:sound.js",
+  "file": "experiments/week4:sound.js",
   "name": "Sound",
   "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
 }
