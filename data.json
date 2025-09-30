@@ -2,37 +2,37 @@
   {
     "file": "experiments/week1:orginal.js",
     "name": "Vera Molnár",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "description": "I choose to do a replication of Vera Molnár's art. It is simple but you can interpret it in your own way. The process of it was quite simple and the lessons was very helpfull."
   },
 
   {
     "file": "experiments/week1:water.js",
     "name": "Waves",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "description": "In this one I chose to keep the vertical lines from the original but make it more funny. I created soundwaves of some sort or ordinary waves with a blue color. This was a bit more complex to do so I used a lot from the lessons but also got some help by ChatGPT."
   },
 
   {
     "file": "experiments/week1:sprinklesonpaper.js",
     "name": "Sprinkles on paper",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "description": "This was the first interpretationI did of the original. I only made some small changes here and that was the coloring on the random smaller lines and if you click on the art they will change place and switch color. This was pretty easy to change and do this changes."
   },
 
   {
     "file": "experiments/week1:behindbars.js",
     "name": "Sprinkles behind bars",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "description": "This one is also an interpretation which is suppose to be a bit funny because of the name. The changes I did was to make the vertical lines hotizontal and that all the lines should be in random sizes. I needed to change some things in the code to make it work but all and all the process went fine."
   },
 
   {
     "file": "experiments/week1:ocean.js",
-    "name": "Ocean eyes",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "name": "Ocean",
+    "description": "This one was an interpretation of the water one and instead of the waves I wanted to make sort of an kid-like ocean with different blue colors. The process went okay and it was fun to do some more random parts in the project."
   },
 
   {
     "file": "experiments/week1:sarahridgley.js",
     "name": "Sarah Ridgley",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "description": "This artwork here is from a designer called Sarah Ridgley. I liked it because of the colors and I thought it was cool and would not be that complicated for me to do. The coding part was simple and it went well when I did it."
   },
 
   {
@@ -40,16 +40,29 @@
     "name": "Fifty shades of grey",
     "description": "I wanted to do a messy design that way grey and glommy because design is not always happy and colorfull. From the original I changed the sizes of the rectangles and the colors."
   },
+
+{
+  "file": "experiments/week2-3:caseyreas.js",
+  "name": "Casey Reas",
+  "description": "I chose to recreate this one because I really liked the artist and I saw a lot of potentiall of what I can do with it. The coding was very simple so it was easy to do a remake of it."
+},
+
 {
   "file": "experiments/week2-3:change.js",
-  "name": "Sarah Ridgley",
-  "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+  "name": "Snow",
+  "description": "I wanted to try out the nre features that we learned in one of the lessens and it become this. I was trycing around for a bit before I did this and I was very happy with the result. It was kind of tricky but it was very helpfull with the example codings and chatgpt."
 },
 
 {
   "file": "experiments/week4:sound.js",
   "name": "Sound",
-  "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+  "description": "I chose to do the sound assignment on Casey Reas artwork but with some modefications. I wanted a button to click on and when you do it should make a sound, but also make more cirkles in different colors, making the person that trys it out creating its own artwork. I thought the sound was a bit hard to do and it took my a while to make it fully work."
+},
+
+{
+  "file": "experiments/week2-3:newone.js",
+  "name": "Night Sky",
+  "description": "For this one I wanted to make sort of a falling star sky with some beautiful colors that would go well on a black background. I thought it was very hard to make this work and it took me a while to get it right but I am very glad the examplecodes was so good and that I could use chatGPT to make things clearer."
 }
 ]
 
