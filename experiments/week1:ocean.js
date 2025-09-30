@@ -30,8 +30,7 @@ stroke(r, g, b);
       let yOffset = noise(x * 0.01, i * 0.2, counter) * 40 - 20;
 
       vertex(x, y + yOffset);
-      //strokeWeight(random(5, 8));
-      //stroke(random(50, 100, 150));
+      
       
     }
 endShape();

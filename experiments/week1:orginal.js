@@ -28,7 +28,7 @@ function draw() {
       let x = random(90, width - 90);
       let len = random(30, 120);
       let angle = random(-PI/4, PI/4);
-      //line(x, y, x + len * cos(angle), y + len * sin(angle));
+      
 
       push();
       translate(x, y);

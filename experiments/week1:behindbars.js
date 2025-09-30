@@ -31,13 +31,13 @@ function draw() {
       let y = random(90, width - 90);
       let len = random(30, 120);
       let angle = random(-PI/4, PI/4);
-      //line(x, y, x + len * cos(angle), y + len * sin(angle));
+      
 
       push();
       translate(x, y);
       stroke(colors[colorIndex % colors.length]); //this line is taken from ChatGPT, https://chatgpt.com/c/68c68590-6414-8324-9c50-4c1f8491939b
       rotate(angle);
-      //strokeWeight(1);
+      
       line(0, 0, len, 0);
       pop();
 
